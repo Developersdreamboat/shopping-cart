@@ -56,7 +56,7 @@ header .close {
   display: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
 	header ul {
 		position: fixed;
 		top: -100%;
