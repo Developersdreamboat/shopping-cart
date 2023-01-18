@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export const DataContext = React.createContext();
 
-export function DataProvider() {
+export function DataProvider(props) {
   const [products] = useState([
     {
         "_id": "1",
@@ -49,8 +49,8 @@ export function DataProvider() {
   ]);
 
   return (
-    <DataContext.Provider value={this.state}>
-        {this.props.children}
+    <DataContext.Provider value={{products}}>
+      {props.children}
     </DataContext.Provider>
   );
 }
