@@ -5,7 +5,7 @@ function Content() {
   return (
     <section>
       <Routes>
-        <Route path="/product" element={<Products />} exact />
+        <Route path="/product" element={<Products />} />
       </Routes>
     </section>
   );
