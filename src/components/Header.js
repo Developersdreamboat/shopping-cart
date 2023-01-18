@@ -2,6 +2,7 @@ import MenuIcon from './svg/bars-solid.svg';
 import CloseIcon from './svg/xmark-solid.svg';
 import CartIcon from './svg/cart-shopping-solid.svg';
 import {Link} from 'react-router-dom';
+import './css/Header.css';
 
 function Header() {
   return (
@@ -15,10 +16,10 @@ function Header() {
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/">Product</Link></li>
-          <li><Link to="/">Contact</Link></li>
-          <li><Link to="/">About</Link></li>
-          <li><Link to="/">Login / Sign up</Link></li>
+          <li><Link to="/product">Product</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/login">Login / Sign up</Link></li>
           <li className="close">
             <img src={CloseIcon} alt="close" width="25"></img>
           </li>

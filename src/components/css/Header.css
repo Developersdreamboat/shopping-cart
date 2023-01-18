@@ -1,0 +1,87 @@
+header {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+header .logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+header nav {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(96, 96, 96);
+  padding: 0 15px;
+}
+
+nav ul li a:hover {
+  color: rgb(8, 211, 211);
+}
+
+nav .nav-cart {
+  cursor: pointer;
+  position: relative;
+  top: 12px;
+}
+
+nav .nav-cart span {
+  position: absolute;
+  top: -12px;
+  right: -8px;
+  background: rgb(220, 9, 51);
+  font-size: 8px;
+  color: #ffffff;
+  padding: 4px 6px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+header .menu,
+header .close {
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 650px) {
+	header ul {
+		position: fixed;
+		top: -100%;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: column;
+		background: #ffffff;
+		z-index: 99;
+		opacity: 0.95;
+		transition: 0.5s linear;
+	}
+	header .menu,
+	header .close {
+		display: block;
+	}
+	header .close {
+		position: absolute;
+		top: 12px;
+		right: 20px;
+	}
+	header ul.toggle {
+		top: 0;
+	}
+}
