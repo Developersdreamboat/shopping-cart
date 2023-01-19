@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { DataContext } from '../DataContext';
+import '../css/Details.css';
 
 function Details() {
 	const { id } = useParams();
@@ -22,7 +23,7 @@ function Details() {
 		<>
 			{
 				product.map(item => (
-					<div key={item._id}>
+					<div className="details" key={item._id}>
 						<img src={process.env.PUBLIC_URL + item.src} alt="product"/>
 						<div className="box">
 							<div className="row">
