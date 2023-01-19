@@ -2,7 +2,7 @@ import { useState } from 'react';
 import MenuIcon from './svg/bars-solid.svg';
 import CloseIcon from './svg/xmark-solid.svg';
 import CartIcon from './svg/cart-shopping-solid.svg';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './css/Header.css';
 
 function Header() {

@@ -7,42 +7,48 @@ export function DataProvider(props) {
     {
         "_id": "1",
         "title": "Funny Shoes",
-        "src": "./img/5-retro-shoes.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt malesuada dolor sed tincidunt. Maecenas arcu tortor, maximus et ante eget, volutpat fringilla ante. Vivamus faucibus a erat vitae fringilla. In pulvinar sed dui sit amet maximus. Vestibulum tincidunt eros at lectus tempus laoreet.",
+        "src": "/img/5-retro-shoes.png",
         "price": 11,
         "count": 1
     },
     {
         "_id": "2",
         "title": "Big Shoes",
-        "src": "./img/6-retro-shoes.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt malesuada dolor sed tincidunt. Maecenas arcu tortor, maximus et ante eget, volutpat fringilla ante. Vivamus faucibus a erat vitae fringilla. In pulvinar sed dui sit amet maximus. Vestibulum tincidunt eros at lectus tempus laoreet.",
+        "src": "/img/6-retro-shoes.png",
         "price": 12,
         "count": 1
     },
     {
         "_id": "3",
         "title": "Unique Shoes",
-        "src": "./img/plus-shoes.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt malesuada dolor sed tincidunt. Maecenas arcu tortor, maximus et ante eget, volutpat fringilla ante. Vivamus faucibus a erat vitae fringilla. In pulvinar sed dui sit amet maximus. Vestibulum tincidunt eros at lectus tempus laoreet.",
+        "src": "/img/plus-shoes.png",
         "price": 18,
         "count": 1
     },
     {
         "_id": "4",
         "title": "Interesting Shoes",
-        "src": "./img/terrascape-97-shoes.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt malesuada dolor sed tincidunt. Maecenas arcu tortor, maximus et ante eget, volutpat fringilla ante. Vivamus faucibus a erat vitae fringilla. In pulvinar sed dui sit amet maximus. Vestibulum tincidunt eros at lectus tempus laoreet.",
+        "src": "/img/terrascape-97-shoes.png",
         "price": 16,
         "count": 1
     },
     {
         "_id": "5",
         "title": "Nice Shoes",
-        "src": "./img/easy-on-off-shoes.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt malesuada dolor sed tincidunt. Maecenas arcu tortor, maximus et ante eget, volutpat fringilla ante. Vivamus faucibus a erat vitae fringilla. In pulvinar sed dui sit amet maximus. Vestibulum tincidunt eros at lectus tempus laoreet.",
+        "src": "/img/easy-on-off-shoes.png",
         "price": 12,
         "count": 1
     },
     {
         "_id": "6",
         "title": "Cool Shoes",
-        "src": "./img/aura-4-shoes.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt malesuada dolor sed tincidunt. Maecenas arcu tortor, maximus et ante eget, volutpat fringilla ante. Vivamus faucibus a erat vitae fringilla. In pulvinar sed dui sit amet maximus. Vestibulum tincidunt eros at lectus tempus laoreet.",
+        "src": "/img/aura-4-shoes.png",
         "price": 15,
         "count": 1
     }
